@@ -1,0 +1,53 @@
+h1{
+    color: dodgerblue;
+    font-size: 4vw;
+}
+
+table{
+    padding:2vh 2%;
+}
+
+th,td{
+    text-align:center;
+	position: relative;
+	left: 50px;
+	padding: 15px;
+    border:solid 1px black;
+}
+
+body{
+    background-color: navajowhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cente{
+    position: relative;
+	left: 100px;
+	padding:2vh 2%;
+}
+
+
+#name{
+    font-size: 1vw;
+}
+
+.cover1{
+    
+    font-size: 100px;
+    background-color:#696969;
+}
+
+.omair-img{
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+.cover-letter{
+    width: 40%;
+    position: relative;
+    left: 80px;
+    padding: 50px;
+    padding-top: 70px;
+}
+

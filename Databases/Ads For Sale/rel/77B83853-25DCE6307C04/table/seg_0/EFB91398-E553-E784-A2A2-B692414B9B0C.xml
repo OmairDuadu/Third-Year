@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFB91398-E553-E784-A2A2-B692414B9B0C" name="Slots">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>EF9D8D1D-F413-38DB-8823-592042A2BAE1</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S_ID" id="9D1CED0E-AE7E-E2DE-F715-5D6BBA746170">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>2E24A057-7332-7255-FC10-1F04EB6F0518</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_Date_TIME" id="443C0982-3F05-F7FD-E67C-DAA283EAE1B0">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>8BDA6B19-342F-9834-94CC-093D617E1F22</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_Day" id="481726D5-F40C-125D-B2AC-DF3BEFB3A46E">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>5F7D4BAA-1CF0-2CC9-19CC-6D180DC2A885</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA387681-EA8D-5501-C1B0-4AC6D7D21AF9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_Status" id="16665C4E-B515-1502-D392-3A6DBA896E32">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>E8F9A1AE-1C25-CA2C-EBDC-8033C87C80AE</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8252AEB0-E2CA-3AFC-5AE9-3EC9B47AA4D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_Region_ID" id="6BDE9B1B-E631-BAD2-8DC5-A1B4B6D17696">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>BB7EE260-7522-45C2-395B-0150D936FC13</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2BBFC61-52C9-015C-1110-C7DEFE961618" referredColumn="589D8539-7E32-1A4E-D510-C929DA508F7A"/>
+</associations>
+</Column>
+<Column name="Program_PROG_ID" id="08333EAA-3995-4659-4F5C-2548FA52D1B2">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>322CC17C-DABC-F00D-707F-A4B7C2946E8C</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D2F4F8-2676-9E0E-CBCB-499D2CF3BDD3" referredColumn="5A13F9F8-DA3F-4851-4D1F-0F06A5B8D8F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AEB83A2-B683-5852-3755-893AB7FB1D70" name="Slots_PK">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>A61582D5-736B-D49E-9157-C4EDF79B875D</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D1CED0E-AE7E-E2DE-F715-5D6BBA746170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E8F0044-F620-2F68-34F2-C3E107F1F845" name="Slots_Program_FK">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>7ACA9D2F-CA3B-F465-9CEE-7B4308006B93</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08333EAA-3995-4659-4F5C-2548FA52D1B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="312EF923-368C-3A53-597E-3FA9954C096D" name="Slots_Region_FK">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>6023BBF9-B4FB-7165-60D1-C8DF5C9B4B5C</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BDE9B1B-E631-BAD2-8DC5-A1B4B6D17696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

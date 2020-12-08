@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Ads For Sale" id="81D648AD-9D6F-E828-A1CD-248C649B0063" version="3.5">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-03 11:41:19 UTC</createdTime>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81D648AD-9D6F-E828-A1CD-248C649B0063</designId>
+</OSDM_Design>

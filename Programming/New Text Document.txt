@@ -1,0 +1,38 @@
+//first Method 
+
+first implement View.OnClickListener
+
+
+//inside the onCreate
+first =  (Button)findViewById(R.id.button);
+first.setOnClickListener(this);
+
+
+//Onutised onCreate
+public void onClick(View button)
+    {
+        Toast.makeText(getApplicationContext(),"You Clicked me!!",Toast.LENGTH_LONG).show();
+    }
+
+
+
+
+
+
+
+
+
+
+
+//Third Method
+
+
+//this goes afer the onCreate
+public void third(View first)
+    {
+        Toast.makeText(getApplicationContext(),"You Clicked Me Again UwU!!", Toast.LENGTH_LONG).show();
+    }
+
+
+//This goes in button in the xml 
+android:onClick="third"

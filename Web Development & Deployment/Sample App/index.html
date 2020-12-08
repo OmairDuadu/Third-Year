@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>Awesome M.L. Newsletter!</title>
+</head>
+
+<body>
+    <div class='container'>
+
+        <div id="titleRow" class='row'>
+            <div class='col-6'>
+                <h3 class='my-4'>Welcome to the Awesome M.L. Newletter!</h3>
+            </div>
+        </div>
+
+        <div class='row'>
+
+            <div class='col-12'>
+
+                <form id='formSubscribe'>
+
+                    <div class='form'>
+
+                        <div class='form-group row'>
+                            <label for="fName" class='col-2 col-form-label'>First Name</label>
+                            <input id='fName' name='fName' type="text" class="form-control col-3">
+                        </div>
+
+                        <div class='form-group row'>
+                            <label for="lName" class='col-2 col-form-label'>Last Name</label>
+                            <input id='lName' name='lName' type="text" class="form-control col-3">
+                        </div>
+
+                        <div class='form-group row'>
+                            <label for="email" class='col-2 col-form-label'>E-mail</label>
+                            <input id='email' name='email' type="email" class="form-control col-3">
+                        </div>
+
+                        <div class='form-group row'>
+                            <label for="researchField" class='col-2 col-form-label'>Research field</label>
+                            <select id="researchField" name='researchField' class="form-control col-3">
+                                <option value=""></option>
+                            </select>
+                        </div>
+
+                        <div class='form-group row'>
+                            <div class='col-4 '>
+                                <button id='btnSubmit' type='button' class='btn btn-primary w-50 float-right'>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+        <nav id='rowLinkUnsubscribe' class='navbar fixed-bottom navbar-light bg-light'>
+            <a href='/pageUnsubscribe' class='btn btn-link'>Click here to unsubscribe</a>
+            <span>
+                <a href='/login' class='btn btn-link'>Admin</a>
+            </span>
+        </nav>
+
+
+        <div id="rowResult" class="row"></div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

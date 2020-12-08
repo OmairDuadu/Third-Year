@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Region_Slots" directorySegmentName="seg_0" id="6023BBF9-B4FB-7165-60D1-C8DF5C9B4B5C">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:06:42 UTC</createdTime>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<engineerTo>
+<item key="77B83853-F673-4A1E-F354-25DCE6307C04" value="true"/>
+</engineerTo>
+<sourcePk>559FBDCB-6892-457C-7BBA-BB153F0F0C05</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>973903F3-ECFC-2A1C-F6E9-478426313A5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF9D8D1D-F413-38DB-8823-592042A2BAE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

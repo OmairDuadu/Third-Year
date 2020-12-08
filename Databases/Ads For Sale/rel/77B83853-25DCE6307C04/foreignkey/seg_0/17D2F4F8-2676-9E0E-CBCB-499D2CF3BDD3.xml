@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17D2F4F8-2676-9E0E-CBCB-499D2CF3BDD3" containerWithKeyObject="EFB91398-E553-E784-A2A2-B692414B9B0C" localFKIndex="7E8F0044-F620-2F68-34F2-C3E107F1F845" name="Slots_Program_FK">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>7ACA9D2F-CA3B-F465-9CEE-7B4308006B93</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<referredTableLongName>Program</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6EEB3DFB-1B8B-FC02-3964-329CE5EF1EA6</referredTableID>
+<keyObject>0C3CACB9-5530-51EC-CF66-90D128497FED</keyObject>
+<referredKeyID>0C3CACB9-5530-51EC-CF66-90D128497FED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>P_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

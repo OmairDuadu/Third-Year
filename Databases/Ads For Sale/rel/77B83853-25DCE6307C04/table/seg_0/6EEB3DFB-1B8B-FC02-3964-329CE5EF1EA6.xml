@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EEB3DFB-1B8B-FC02-3964-329CE5EF1EA6" name="Program">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>94FEC173-60B0-8DD5-C64A-3DA71035799E</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROG_ID" id="5A13F9F8-DA3F-4851-4D1F-0F06A5B8D8F3">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>571B1ACF-3FF3-A716-8BC5-C94A7E5B1E69</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROG_Name" id="72E3EE40-4C85-A0DC-FC5C-F9FFF0C61079">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>BF979EC6-7D72-1A21-FB30-F66F9D90C054</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8252AEB0-E2CA-3AFC-5AE9-3EC9B47AA4D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROG_Date_Time" id="0C5A9E90-7800-B6DA-144A-DB1591562E04">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>38BEB398-93F8-9A14-EB30-04DBC7A5F0F8</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROG_Target_Audience" id="91FA96B5-F7E5-CCF7-4B4E-1AFA4F274AB2">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>7279CA5B-3539-6DA1-4E23-B5BC279A5D28</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROG_Ratings" id="34BDF67B-6EB2-76D0-CDE0-5FE17910E5F0">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>1197EC73-162F-CB43-60A1-4034B035939E</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROG_Before" id="FB3C26E3-BC50-5A6C-98A2-0CE668B77A43">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-08 18:10:37 UTC</createdTime>
+<generatorID>81ED9FEA-B46C-AC4E-C1D3-C9C3A20C26A4</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROG_After" id="E7DC93EA-18E6-21BC-C270-D6D32DFD913A">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-08 18:10:37 UTC</createdTime>
+<generatorID>EC360452-1792-ED66-B2EB-3BCD9B7AA4CF</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C3CACB9-5530-51EC-CF66-90D128497FED" name="Program_PK">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>CC68FAD3-CC93-1394-7CC5-FED1DF8082EA</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A13F9F8-DA3F-4851-4D1F-0F06A5B8D8F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

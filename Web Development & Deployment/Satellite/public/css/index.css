@@ -1,0 +1,548 @@
+/*format the whole page*/
+html,body{margin:0;
+    padding:0;
+    font-size:62.5%;
+    background:white;
+    color:#000000;
+    width:100%;
+    max-height:100%;}
+
+/*format the font*/
+p{font-size:2.5em;}
+
+h2{font-size:4em;}
+
+h3{font-size:3em;}
+
+h4{font-size:1.3em;}
+
+h5{font-size:2.5em;
+    margin:15px;}
+
+h6{font-size:2em;}
+
+
+/*format the header of all the pages*/
+header{position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    margin:0;
+    margin:0em;
+    padding:0em;}
+
+.header{width:100%;
+    height:250px;
+    padding:0em;
+    margin:0em;}
+
+.banner {position:absolute;
+    top:40px;
+    right:7%;
+    font-size:4em;
+    color:#E7E7E7;
+    margin:0em;
+    padding:0em;}
+
+.loginLink{
+    position:absolute;
+    top:10px;
+    right:2%;
+    margin:0em;
+    padding:0em;
+}
+
+/*format the footer for all the pages*/
+footer{position:absolute;
+    bottom:0;
+    width:100%;
+    height:90px;
+    background-color:#007FF0;
+    width:100%;
+    font-size:2.5em;
+    color:#E7E7E7;
+    text-align:center;
+    padding-top:10px;
+}
+
+.footer{float:left;
+    width:33%;}
+
+.footer a{font-size:1em;
+    color:#E7E7E7;}
+
+.bold{font-weight:1000;}
+
+.align{text-align:center;}
+
+/*format the links to the other pages*/
+.blue{
+    background:#007FF0;
+    width:100%;
+    padding:5px 0px 5px 0px;
+    margin:0em;
+    height:45px;
+    position: relative;
+    top: -10px;
+}
+
+a {text-decoration:none;
+    color:#000000;
+    font-size:4em;
+    margin:10px;
+    font-weight:bold;}
+
+a:hover {text-decoration:underline;}
+
+.current {color:#E7E7E7;}
+
+ul {list-style-type: none;
+    text-align:center;
+    padding-top:5px;
+    margin:0;
+    padding:0;
+    overflow:hidden;}
+
+li {display: inline-block;}
+
+li a, .drobtn{display:inline-block;
+    text-align:center;
+    text-decoration:none;}
+
+li .dropdown{display:inline-block;}
+
+.dropdown-content{display:none;
+    position:absolute;
+    background-color:#007FF9;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;}
+
+.dropdown-content a{color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;}
+
+.dropdown-content a:hover{background-color:#E7E7E7;}
+
+.dropdown:hover .dropdown-content{display:block;}
+
+.menu-icon {display: none;
+    width: 0px;
+    height: 0px;
+    background: #007FF0 url(images/menu-icon.png) center;}
+
+/*format the back to top link*/
+.back{margin:10px;}
+
+.back a{font-size:2.5em;}
+
+.back a:hover{color:#007FF0;}
+
+/*format the our company page(index.html)*/
+section {max-width: 100%;
+    float:left;
+    padding:0px 5px 0px 5px;}
+
+.col {float: left;
+    margin-right: 5%;
+    width: 30%;}
+
+.col-last {margin:0;}
+
+.clearfix {clear: both;}
+
+img {margin: 4px 0px 10px;
+    height: auto;
+    max-width: 100%;}
+
+/*format the services page(services.html)*/
+th,td{border: .1em solid;
+    text-align:center;
+    font-size:2.5em;}
+
+th {background: #007FF0}
+
+table {width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    
+}
+th {
+    width: 40%;
+}
+
+.hideprice{display:none;}
+
+.rel {position:relative;
+    top:0px;
+    left:0px;
+    margin-bottom:50px;}
+
+.overlay {position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: auto;
+    opacity: 0;
+    width:100%;
+    height: 100%;
+    transition: opacity 1.5s ease;}
+
+.rel:hover .overlay {opacity:1;}
+
+.rel img{width:100%;}
+
+.h2{font-size:3.1em;}
+
+.text{font-size:2.5em;
+    padding:30px;}
+
+.colser {margin-right: 5%;
+    width: 30%;
+    float:left;}/*find differnet images*/
+
+.colser-last {margin:0;}
+
+/*format the our employees page(employees.html)*/
+.pictures{width:50%;
+    margin-right:auto;
+    margin-left:auto;}
+
+.avatar {vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float:left;}
+
+.clear{clear:both;}
+
+article{border:black 1px solid;
+    margin-bottom:10px;
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;}
+
+.textwrap {padding:1em;}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 90px;    /* Footer height */
+}
+
+.size{float:left;
+    width:45%;
+    margin-right:2.5%;
+    margin-left:2.5%;}
+
+/*format the contact page(contact.html)*/
+.change{width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    font-size:1.5em;}
+
+input{margin-bottom:5px;}
+
+.tooltip {position: relative;
+    top:10px;
+    display: inline-block;}
+
+.tooltip .tooltiptext {visibility: hidden;
+    width: 300px;
+    background-color: #D3D3D3;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 105%;}
+
+.tooltip:hover .tooltiptext {visibility: visible;}
+
+fieldset{font-size:2.2rem;
+    padding-top:1px;
+    margin-top:20px;
+    border:1px black solid;
+    background-color:#EFEFEF;
+    border-radius:10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.dir{background:none;}
+
+input,textarea{padding:5px;
+    background-color:#D0D0D0;
+    margin-top:5px;}
+
+
+.contact{border:solid black 1px;
+    margin-top:20px;
+    padding:10px;
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    background-color:#EFEFEF;
+    border-radius:10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.contact h5{margin:0px;
+    font-size:2.5rem;}
+
+.contact h6{margin:10px 0px 5px 0px;
+    font-size:2rem;}
+
+/*format the sitemap page(sitemap.html)*/
+.site a{font-size:3em;}
+
+.site a:hover{color:#007FF0;}
+
+.site li{display:block;}
+
+.site ul{text-align:left;
+    margin-left:30px;}
+
+
+@media screen and (max-width: 992px)
+{
+    /*making the header responsive*/
+    .header{height:225px;}
+
+    .banner{top:35px;
+        font-size:3.5em;}
+
+    /*making the our company page(index.html) responsive*/
+    div.col {width:47.5%}
+
+    div.col-sec {margin:0;}
+
+    div.col-last {clear: both;
+        float: none;
+        width: auto;
+        padding-top:5px;}
+
+    div.col-last img{width:100%;}
+
+    /*making the services page(services.html) responsive*/
+    .text{font-size:2.8em;
+        padding:20px;}
+
+    .h2{font-size:3.5em;}
+
+    /*making the our contact page(index.html) responsive*/
+    .change{width:70%;}
+
+    .contact{width:70%;}
+
+    /*.tooltip .tooltiptext{left:-5px;}*/
+}
+
+@media screen and (max-width: 768px)
+{
+    /*making the header responsive*/
+    .header{height:200px;}
+
+    .banner{top:30px;
+        font-size:3em;}
+
+    /*making the links responsive*/
+    .blue{background:none;
+        width:20%;
+        position:relative;
+        top:-30px;
+    }
+
+    .menu-icon {display:inline-block;
+        width:40px;
+        height:40px;}
+
+    .dropdown:hover .dropdown-content{display:none;}
+
+    nav ul, nav:active ul {display: none;
+        position: absolute;
+        padding: 20px;
+        background: #007FF0;
+        border: 1px solid #444;
+        left: 10px;
+        top: 200px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;}
+
+    nav li {text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;}
+
+    nav:hover ul {display: block;
+        z-index:2;}
+
+    .login1{
+
+        position:relative;
+        left:100px;
+        top:400px;
+        margin-top:-10px;
+
+
+    }
+    /*making the services page(services.html) responsive*/
+    .hide{display:none;}
+
+    .text{font-size:2.5em;
+        padding:20px;}
+
+    .h2{font-size:2.9em;}
+
+    /*making the our contact page(index.html) responsive*/
+    .tooltip .tooltiptext{left:-10px;}
+}
+
+@media screen and (max-width: 576px)
+{
+    /*making the header responsive*/
+    .header{height:175px;}
+
+    .banner{top:25px;
+        font-size:2.5em;}
+
+    /*making the footer responsive*/
+    footer{height:250px;}
+
+    .footer{position:absolute;
+        bottom:0;
+        float:none;
+        width:50%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:10px;}
+
+    /*making the links responsive*/
+    nav ul, nav:active ul{top:175px;}
+
+    /*making the our company page(index.html) responsive*/
+    div.mobile-collapse {width: auto;
+        float: none;
+        margin-right: 0;}
+
+    /*making the our employees page(empolyee.html) responsive*/
+    .pictures{display:none;}
+
+    .size{float:none;
+        width:90%;
+        margin-right:5%;
+        margin-left:5%;}
+
+    /*making the services page(services.html) responsive*/
+    .tablehide{display:none;}
+
+    .priceunhide{display:block;
+        width:80%;
+        margin-right:auto;
+        margin-left:auto;}
+
+    .unhide{display:block;}
+
+    .overlay{opacity: 1;
+        overflow:hidden;
+        background:none;}
+
+    .overlay:hover{overflow:auto;}
+
+    .h2{margin-left:10%;
+        font-size:3.5em;}
+
+    .imghide{opacity:0;}
+
+    .rel{width:90%;}
+
+    .text{font-size:2.3em;}
+
+    /*making the our contact page(index.html) responsive*/
+    .change{width:90%;}
+
+    .contact{width:70%;}
+
+    .tooltip .tooltiptext{left:-150px;}
+}
+
+/*Sitemap */
+.form-group{font-size:20px;
+}
+
+.midd{
+    max-width: 400px;
+    margin: auto;
+}
+.login{
+    font-size:12.5px;
+    border-bottom: black 1px solid;
+    margin-bottom: 10px;}
+.contacthead{
+    font-size:12.5px;
+    border-bottom: black 1px solid;
+    margin-bottom: 10px;
+}
+label { display: inline-block;
+    width: 210px;
+    text-align: center; }
+
+.button{
+    background-color: #007FF9; /* blue */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 150px;
+    margin-top: 15px;
+}
+.button:hover {
+    background-color: white; /* white */
+    color: #007FF9;
+}
+.register{
+    background-color: #007FF9; /* blue */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 280px;
+    margin-top: 15px;
+}
+.register:hover {
+    background-color: white; /* white */
+    color: #007FF9;
+}
+input, textarea {
+    background-color: white;
+}
+
+#rconfirmPassword{
+    color: red;
+}
+
+input.error{
+    border: 1px solid red;
+}
+
+label.error{
+    color: #D3212D;
+    display: inline;
+}

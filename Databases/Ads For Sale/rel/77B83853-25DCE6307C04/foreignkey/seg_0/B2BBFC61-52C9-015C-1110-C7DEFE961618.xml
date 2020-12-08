@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2BBFC61-52C9-015C-1110-C7DEFE961618" containerWithKeyObject="EFB91398-E553-E784-A2A2-B692414B9B0C" localFKIndex="312EF923-368C-3A53-597E-3FA9954C096D" name="Slots_Region_FK">
+<createdBy>omair</createdBy>
+<createdTime>2020-11-05 19:18:24 UTC</createdTime>
+<generatorID>6023BBF9-B4FB-7165-60D1-C8DF5C9B4B5C</generatorID>
+<ownerDesignName>Ads For Sale</ownerDesignName>
+<referredTableLongName>Region</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD3B9A10-3227-6448-C85B-7E7BC961CD6E</referredTableID>
+<keyObject>F735740C-FB18-A47D-7126-64D077D8D960</keyObject>
+<referredKeyID>F735740C-FB18-A47D-7126-64D077D8D960</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Region_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,156 @@
+"""Library Class is the main in class in which most of the functions work in"""
+
+
+class Library:
+    """Constructor"""
+
+    def __init__(self):
+        self.Book = []
+        self.Member = []
+        self.Staff = []
+
+    """Method for adding in a book"""
+
+    def add_book(self):
+        input_file_name = input("Enter File Name :")
+        f = open(input_file_name, "r")
+        isbn = "ISBN " + f.readline()
+        title = "Title " + f.readline()
+        author = "Author " + f.readline()
+        quantity = "Quantity " + f.readline()
+
+        """Creating an object from the Book class"""
+        book1 = Book(isbn, title, author, quantity)
+
+        """adding book1 to the Book List"""
+        self.Book.append(book1)
+
+        for b in self.Book:
+            print(b.myfunc())
+
+    """Method for adding in a member of the library"""
+
+    def add_member(self):
+        name = input("Enter in member name : ")
+        address = input("Enter in member Address : ")
+        phone = input("Enter in member phone : ")
+        identity = input("Enter in member identity : ")
+        expiration_date = input("Enter in member expiration date : ")
+
+        """creating an object from Member class"""
+        member1 = Member(name, address, phone, identity, expiration_date)
+
+        """Adding member1 to the Member List"""
+        self.Member.append(member1)
+
+        for b in self.Member:
+            print(b.print_member())
+
+    """Method for adding in a Staff member"""
+
+    def add_staff(self):
+        name = input("Enter in staff name :")
+        address = input("Enter in staff Address :")
+        phone = input("Enter in staff phone :")
+        identity = input("Enter in staff identity :")
+        start_date = input("Enter in staff Start date :")
+        position = input("Enter in staff position  :")
+        shift = input("Enter in staff shift :")
+
+        """creating an object from Staff class"""
+        staff1 = Staff(name, address, phone, identity, start_date, position, shift)
+
+        """Appending staff1 to the Staff List"""
+        self.Staff.append(staff1)
+
+        """Printing out all the Staff"""
+        for b in self.Staff:
+            print(b.print_staff())
+
+    """Method to loan a book from the library"""
+
+    def loan_book(self):
+        check_book = input("Search for book with ISBN, Title, Author : ")
+        for i in self.Book:
+            """To check if the tittle or isbn or author are in the library"""
+            if check_book == i.title or i.isbn or i.author:
+                print("You have loaned the book.Quantity has gone down by 1 ")
+            else:
+                print("Couldn't find book")
+
+    """Method to search if book is available in the Library"""
+
+    def search(self):
+        check_book = input("Search for book with ISBN, Title, Author : ")
+        for i in self.Book:
+            """To check if the tittle or isbn or author are in the library"""
+            if check_book == i.title or i.isbn or i.author:
+                print("The book exist in the Library")
+            else:
+                print("Couldn't find book")
+
+
+class Book:
+    """Constructor"""
+
+    def __init__(self, isbn, title, author, quantity):
+        self.isbn = isbn
+        self.title = title
+        self.author = author
+        self.quantity = quantity
+
+    '''Method to print the book details'''
+
+    def myfunc(self):
+        print(self.isbn + self.title + self.author + self.quantity)
+
+
+class Person:
+    """Constructor"""
+
+    def __init__(self, name, address, phone):
+        self.name = name
+        self.address = address
+        self.phone = phone
+
+
+class Member(Person):
+    """Constructor"""
+
+    def __init__(self, name, address, phone, identity, expiration_date):
+        super().__init__(name, address, phone)
+        self.identity = identity
+        self.expiration_date = expiration_date
+
+    """Method to print the member details"""
+
+    def print_member(self):
+        print(
+            "Name : " + self.name + '\nAddress : ' + self.address + '\nPhone : '
+            + self.phone + '\nId : ' + self.identity + '\nMembership expiration : ' + self.expiration_date)
+
+
+class Staff(Person):
+    """Constructor"""
+
+    def __init__(self, name, address, phone, identity, start_date, position, shift):
+        super().__init__(name, address, phone)
+        self.identity = identity
+        self.start_date = start_date
+        self.shift = shift
+        self.position = position
+
+    """Method to print the staff Details"""
+
+    def print_staff(self):
+        print("Name : " + self.name + '\nAddress : ' + self.address + '\nPhone : ' + self.phone + '\nId : ' + self.identity
+              + '\nStart Date : ' + self.start_date + '\nPosition ' + self.position + "\nShift : " + self.shift)
+
+print("Welcome to the Library")
+Lib1 = Library()
+Lib1.add_book()
+Lib1.add_member()
+Lib1.add_staff()
+Lib1.loan_book()
+Lib1.search()
+print("Thank You fro visiting the library today!")
