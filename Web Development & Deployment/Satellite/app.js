@@ -41,7 +41,7 @@ passport.use(new LocalStrategy(
             });
         });  
     }
-  ));
+));
 // To configure the session 
 passport.serializeUser(function(user, done){
     done(null, user.id);
@@ -130,13 +130,11 @@ app.get('/logout', function(req, res){
 
 // Contact us page functioanlity 
 app.post('/insertContact', [
-
     body('cfName').isLength({min: 3, max:50}),
     body('clName').isLength({min: 3, max:50}),
     body('cEmail').isLength({min: 3, max:50}).isEmail(),
     body('cphoneNumber').isLength({min: 10, max:15}),
     body('cMessage').isLength({min: 3, max:250}),    
-
     ],
     function(req, res){ 
         const validErrors = validationResult(req);

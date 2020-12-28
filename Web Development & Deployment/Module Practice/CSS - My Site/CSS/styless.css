@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E; 
+}
+
+p{
+    line-height: 2;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #66bfbf;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+hr{
+    border: dotted  #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+}
+
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+.top-container{
+    background: #E4F9F5;
+    position: relative;
+    padding: 100px;
+
+}
+
+.middle-container{
+    margin: 100px ;
+}
+
+.bottom-container{
+    background-color:  #66bfbf;
+    padding: 50px 0 20px;
+   
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 460px;
+
+}
+
+.pro{
+    text-decoration: underline;  
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: .75rem;
+    padding: 20px 0px;
+}

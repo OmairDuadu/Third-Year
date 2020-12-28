@@ -52,29 +52,6 @@ function processErrors(){
 
 function processResults(rows, status, xhr){
     console.log("Data sent to the server");
-    // let resultsTable = 
-    // `<table id="resultsTable" class="table midd">
-    //     <tr>
-    //         <th scope="col">ID</th>
-    //         <th scope="col">First Name</th>
-    //         <th scope="col">Last Name</th>
-    //         <th scope="col">Email</th>
-    //         <th scope="col">Phone Number</th>
-    //         <th scope="col">Message</th>
-    //     </tr>`;
-    // for (let i = 0 ; i < rows.length; i++){
-    //     resultsTable += `<tr> <td> ${rows[i].id}</td>`;
-    //     resultsTable += `<td> ${rows[i].cfName}</td>`
-    //     resultsTable += `<td> ${rows[i].clName}</td>`
-    //     resultsTable += `<td> ${rows[i].cEmail}</td>`
-    //     resultsTable += `<td> ${rows[i].cphoneNumber}</td>`
-    //     resultsTable += `<td> ${rows[i].cMessage}</td></tr>`
-    // }
-    // resultsTable += `</table>`;
-
-    // $('#contactForm').hide();
-
-    // This is the Id display
     let registerTable = 
     `<table id="registerTable" class="table midd ">
         <tr>

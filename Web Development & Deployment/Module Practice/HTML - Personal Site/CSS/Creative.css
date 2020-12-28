@@ -1,0 +1,37 @@
+/*****************TAG SELCETORS************************/
+body{
+    background-color: rgb(228, 167, 36);
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%; 
+    
+}
+
+h1{
+    color: crimson;
+  
+}
+
+h3{
+    color: #7e100c;
+}
+
+
+/*****************CLASS SELCETORS***********************
+can be used many times and overrides tags*/
+
+.broccoli{
+    font-size: larger;
+}
+
+/*****************ID SELCETORS***********************
+can only be used once and will override classes and tags*/
+
+#chicken{
+    font-size: larger;
+}
